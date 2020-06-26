@@ -10,7 +10,7 @@ function App() {
           <div>
             <h1>{el.name}</h1>
             <p>{el.description}</p>
-            <img src={require(`${el.cover}`)} />
+            <img src={require(`${el.cover}`)} alt='cover img' />
           </div>
         );
       })}

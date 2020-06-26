@@ -18,7 +18,15 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "rules": {
+      "eqeqeq": "off",
+      "quotes": "off"
+    }
   },
   "browserslist": {
     "production": [
