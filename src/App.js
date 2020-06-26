@@ -2,9 +2,13 @@ import React from 'react';
 import './scss/styles.scss';
 import greek from './data/greek.json';
 
+// import components
+import Home from './components/Home/Home';
+
 function App() {
   return (
     <div className='App'>
+      <Home></Home>
       {greek.map(el => {
         return (
           <div>
