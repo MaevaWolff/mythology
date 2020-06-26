@@ -1,6 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # MYTHOLOGY WEBSITE
+blablablablabla
+
+# COLLABORATOR
+👹 STAMPFLI Nathan
+😎 WOLFF Maëva
+
+
 
 ## Available Scripts
 
