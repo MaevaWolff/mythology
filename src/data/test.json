@@ -1,8 +1,22 @@
 [
   {
-    "title": "coucou"
+    "name": "Zeus",
+    "description": "lorem ipsum blablablabla",
+    "cover": "./assets/image.png"
   },
   {
-    "title": "coucou2"
+    "name": "Hera",
+    "description": "lorem ipsum blablablabla",
+    "cover": "./assets/image.png"
+  },
+  {
+    "name": "Ares",
+    "description": "lorem ipsum blablablabla",
+    "cover": "./assets/image.png"
+  },
+  {
+    "name": "Artemis",
+    "description": "lorem ipsum blablablabla",
+    "cover": "./assets/image.png"
   }
 ]

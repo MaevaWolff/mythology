@@ -7,7 +7,13 @@ function App() {
   return (
     <div className='App'>
       {test.map(el => {
-        return <h1>{el.title}</h1>;
+        return (
+          <div>
+            <h1>{el.name}</h1>
+            <p>{el.description}</p>
+            <img src={require(`${el.cover}`)} />
+          </div>
+        );
       })}
     </div>
   );
