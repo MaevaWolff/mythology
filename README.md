@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 blablablablabla
 
 # COLLABORATOR
-👹 STAMPFLI Nathan
+👹 STAMPFLI Nathan <br>
 😎 WOLFF Maëva
 
 
