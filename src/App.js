@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './scss/styles.scss';
 import greek from './data/greek.json';
 
 function App() {
