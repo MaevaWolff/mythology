@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import test from './data/test.json';
+import greek from './data/greek.json';
 
 function App() {
-  console.log(test);
   return (
     <div className='App'>
-      {test.map(el => {
+      {greek.map(el => {
         return (
           <div>
             <h1>{el.name}</h1>
