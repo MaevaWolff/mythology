@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 export default class CarouselItem extends Component {
-  // constructor(props){
-  //   super(props) {
-  //     mythImage: String,
-  //     mythName: String
-  //   }
-  // }
   render() {
     return (
       <div className='carouselItem'>
@@ -22,3 +17,12 @@ export default class CarouselItem extends Component {
     );
   }
 }
+
+CarouselItem.propTypes = {
+  mythImg: PropTypes.string.isRequired,
+  mythName: PropTypes.string.isRequired
+};
+
+CarouselItem.defaultProps = {
+  mythName: 'test'
+};
