@@ -1,0 +1,11 @@
+@import '../../scss/styles.scss';
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  @include medium {
+    margin: 40px 80px;
+  }
+}
