@@ -1,0 +1,22 @@
+@import '../../scss/styles.scss';
+
+.titlePage {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--primary-color);
+  &__main {
+    font-family: Rosarivo;
+    font-size: 100px;
+    font-weight: 900;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px var(--primary-color);
+    color: transparent;
+  }
+  &__subtitle {
+    letter-spacing: 0.45em;
+    margin-top: 10px;
+  }
+}
