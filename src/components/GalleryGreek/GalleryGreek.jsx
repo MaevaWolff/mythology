@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import greek from '../data/greek.json';
+import greek from '../../data/greek.json';
+
+import Gallery from '../Gallery/Gallery';
 
 export default class GalleryGreek extends Component {
   render() {
@@ -7,11 +9,11 @@ export default class GalleryGreek extends Component {
       <div>
         {greek.map(el => {
           return (
-            <div>
-              <h1>{el.name}</h1>
-              <p>{el.description}</p>
-              <img src={require(`${el.cover}`)} alt='cover img' />
-            </div>
+            <Gallery
+              galleryName={el.name}
+              galleryDesc={el.description}
+              galleryCover={el.cover}
+            ></Gallery>
           );
         })}
       </div>

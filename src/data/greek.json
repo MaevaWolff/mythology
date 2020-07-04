@@ -2,21 +2,21 @@
   {
     "name": "Zeus",
     "description": "lorem ipsum blablablabla",
-    "cover": "./assets/image.png"
+    "cover": "image.png"
   },
   {
     "name": "Hera",
     "description": "lorem ipsum blablablabla",
-    "cover": "./assets/image.png"
+    "cover": "image.png"
   },
   {
     "name": "Ares",
     "description": "lorem ipsum blablablabla",
-    "cover": "./assets/image.png"
+    "cover": "image.png"
   },
   {
     "name": "Artemis",
     "description": "lorem ipsum blablablabla",
-    "cover": "./assets/image.png"
+    "cover": "image.png"
   }
 ]
