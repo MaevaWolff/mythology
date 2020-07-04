@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './Home.scss';
+import './Loader.scss';
 
-export default class Home extends Component {
+export default class Loader extends Component {
   render() {
     return (
-      <div class='home'>
-        <div className='home__content'>
-          <h1 className='home__title'>ZEUS.</h1>
+      <div className='loader'>
+        <div className='loader__content'>
+          <h1 className='loader__title'>ZEUS.</h1>
           <svg
             width='298'
             height='298'
@@ -26,7 +26,7 @@ export default class Home extends Component {
           </svg>
         </div>
 
-        <p className='home__subtitle'>Lorem ipsum</p>
+        <p className='loader__subtitle'>Lorem ipsum</p>
       </div>
     );
   }
