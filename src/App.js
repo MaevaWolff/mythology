@@ -8,6 +8,8 @@ import Loader from './components/Loader/Loader';
 // import views
 import Home from './views/Home';
 import Greek from './views/Greek';
+import Japonese from './views/Japonese';
+import Hindu from './views/Hindu';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/greek' component={Greek} />
+          <Route exact path='/japonese' component={Japonese} />
+          <Route exact path='/hindu' component={Hindu} />
         </Switch>
       </div>
     </Router>
