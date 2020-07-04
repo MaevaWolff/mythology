@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
 import './TitlePage.scss';
 
 export default class TitlePage extends Component {
@@ -11,3 +13,11 @@ export default class TitlePage extends Component {
     );
   }
 }
+
+TitlePage.propTypes = {
+  titlePage: PropTypes.string.isRequired
+};
+
+TitlePage.defaultProps = {
+  titlePage: 'name'
+};
