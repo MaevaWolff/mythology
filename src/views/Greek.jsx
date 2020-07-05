@@ -7,12 +7,11 @@ import GalleryGreek from '../components/GalleryGreek/GalleryGreek';
 export default class Greek extends Component {
   render() {
     return (
-      <div>
+      <div className='greek'>
         <Header></Header>
         <TitlePage titlePage='Greek'></TitlePage>
-        <div className='galleries'>
-          <GalleryGreek></GalleryGreek>
-        </div>
+
+        <GalleryGreek></GalleryGreek>
       </div>
     );
   }

@@ -6,7 +6,7 @@ import Gallery from '../Gallery/Gallery';
 export default class GalleryGreek extends Component {
   render() {
     return (
-      <div>
+      <div className='galleryContainer'>
         {greek.map(el => {
           return (
             <Gallery
