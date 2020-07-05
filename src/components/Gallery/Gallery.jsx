@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 import './Gallery.scss';
 
@@ -19,3 +20,14 @@ export default class Gallery extends Component {
     );
   }
 }
+
+Gallery.propTypes = {
+  galleryPath: PropTypes.string.isRequired,
+  galleryName: PropTypes.string.isRequired,
+  galleryCover: PropTypes.string
+};
+
+Gallery.defaultProps = {
+  galleryPath: '/',
+  galleryName: 'Name of God'
+};
