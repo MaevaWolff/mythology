@@ -4,7 +4,10 @@
   align-items: center;
   margin: 0px 0px 100px 0;
   &:nth-of-type(odd) {
-    flex-direction: column-reverse;
+    a {
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
   &__name {
     font-family: Rosarivo;
