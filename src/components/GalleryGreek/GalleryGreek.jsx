@@ -10,6 +10,7 @@ export default class GalleryGreek extends Component {
         {greek.map(el => {
           return (
             <Gallery
+              galleryPath={`/greek/${el.name}`}
               galleryName={el.name}
               galleryDesc={el.description}
               galleryCover={el.cover}
