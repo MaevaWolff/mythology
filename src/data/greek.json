@@ -1,41 +1,53 @@
 [
   {
-    "name": "Zeus",
+    "yourID": "1",
+    "name": "zeus",
     "description": "lorem ipsum blablablabla",
     "cover": "image.png"
   },
   {
-    "name": "Hera",
+    "yourID": "2",
+    "name": "hera",
     "description": "lorem ipsum blablablabla",
     "cover": "image.png"
   },
   {
-    "name": "Ares",
+    "yourID": "3",
+    "name": "ares",
     "description": "lorem ipsum blablablabla",
     "cover": "image.png"
   },
   {
-    "name": "Artemis",
+    "yourID": "4",
+
+    "name": "artemis",
     "description": "lorem ipsum blablablabla",
     "cover": "image.png"
   },
   {
-    "name": "Artemis",
+    "yourID": "5",
+
+    "name": "artemis",
     "description": "lorem ipsum blablablabla",
     "cover": "image.png"
   },
   {
-    "name": "Artemis",
+    "yourID": "6",
+
+    "name": "artemis",
     "description": "lorem ipsum blablablabla",
     "cover": "image.png"
   },
   {
-    "name": "Artemis",
+    "yourID": "7",
+
+    "name": "artemis",
     "description": "lorem ipsum blablablabla",
     "cover": "image.png"
   },
   {
-    "name": "Artemis",
+    "yourID": "8",
+    "name": "artemis",
     "description": "lorem ipsum blablablabla",
     "cover": "image.png"
   }
