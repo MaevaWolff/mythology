@@ -10,6 +10,7 @@ import Home from './views/Home';
 import Greek from './views/Greek';
 import Japonese from './views/Japonese';
 import Hindu from './views/Hindu';
+import GodPage from './views/God.page';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact path='/greek' component={Greek} />
           <Route exact path='/japonese' component={Japonese} />
           <Route exact path='/hindu' component={Hindu} />
+          <Route exact path='/god' component={GodPage} />
         </Switch>
       </div>
     </Router>
